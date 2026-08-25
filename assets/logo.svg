@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Rinascita Minecraft Campaign OS</title>
+<desc id="desc">Logo fantasy Minecraft-like with a floating island, castle, tree and the word Rinascita</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#071d3d"/><stop offset=".55" stop-color="#0a8a9a"/><stop offset="1" stop-color="#062442"/>
+  </linearGradient>
+  <linearGradient id="island" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#65ff8c"/><stop offset=".45" stop-color="#18d76c"/><stop offset="1" stop-color="#087b4f"/>
+  </linearGradient>
+  <linearGradient id="rock" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#5d6673"/><stop offset="1" stop-color="#222938"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ff9f1a"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".55"/></filter>
+</defs>
+
+<rect x="6" y="6" width="708" height="408" rx="34" fill="url(#sky)" stroke="#19d8ff" stroke-opacity=".34" stroke-width="2"/>
+
+<!-- sun + atmosphere -->
+<circle cx="108" cy="90" r="43" fill="#ffd84b" filter="url(#glow)"/>
+<path d="M40 145 Q150 93 266 134 T520 122 T690 148 V188 H40 Z" fill="#152b58" opacity=".5"/>
+<g fill="#86ffe2" opacity=".5"><circle cx="580" cy="70" r="3"/><circle cx="620" cy="105" r="5"/><circle cx="534" cy="92" r="2"/><circle cx="175" cy="60" r="3"/></g>
+
+<!-- floating island -->
+<path d="M96 220 L150 184 232 194 308 166 406 192 492 167 580 195 650 176 684 206 645 254 613 284 586 326 548 343 510 334 475 351 429 338 394 357 342 334 300 351 253 330 218 342 188 312 148 298Z" fill="#072436" opacity=".6"/>
+<path d="M76 215 L141 172 230 182 311 148 408 180 495 148 583 180 653 160 688 198 649 248 609 278 588 312 548 330 506 319 472 338 427 321 391 344 342 318 300 338 254 313 215 327 180 292 137 280Z" fill="url(#island)" filter="url(#shadow)"/>
+
+<!-- terrain blocks -->
+<g opacity=".96">
+  <path d="M123 223h56v54h-56z" fill="#7df58e"/><path d="M179 218h54v63h-54z" fill="#4fe07b"/>
+  <path d="M232 206h72v68h-72z" fill="#38c96c"/><path d="M304 184h64v78h-64z" fill="#6be87d"/>
+  <path d="M373 201h72v68h-72z" fill="#37c66b"/><path d="M444 183h62v70h-62z" fill="#4ce277"/>
+  <path d="M508 199h76v68h-76z" fill="#32bc64"/><path d="M585 192h63v65h-63z" fill="#57dc71"/>
+</g>
+
+<!-- castle -->
+<g filter="url(#shadow)">
+  <path d="M271 214 L276 154 305 154 309 128 328 128 332 154 358 154 362 214Z" fill="#6b7584" stroke="#202a39" stroke-width="4"/>
+  <path d="M269 214V166h26v-18h20v18h28v-18h22v66Z" fill="#87929e"/>
+  <path d="M317 187h18v27h-18z" fill="#283849"/><path d="M286 179h10v13h-10zM346 179h10v13h-10z" fill="#ffd54f"/>
+  <path d="M288 138v-42h7l13 13 14-13v42Z" fill="#f1f6ff" stroke="#1d2a3e" stroke-width="4"/>
+</g>
+
+<!-- tree -->
+<g>
+  <path d="M430 185 L441 118 460 118 472 185Z" fill="#7a4b2a"/>
+  <path d="M436 132 Q395 125 405 90 Q417 57 452 72 Q477 43 505 65 Q537 75 525 108 Q515 140 474 132 Q458 150 436 132Z" fill="#1ecb67" stroke="#0a593d" stroke-width="5"/>
+  <path d="M447 84 Q461 57 482 71" fill="none" stroke="#78ff91" stroke-width="6" opacity=".7"/>
+</g>
+
+<!-- title -->
+<g font-family="Impact, Arial Black, Arial, sans-serif" text-anchor="middle">
+  <text x="360" y="286" font-size="76" letter-spacing="3" fill="#08131c" stroke="#08131c" stroke-width="16" paint-order="stroke">RINASCITA</text>
+  <text x="360" y="282" font-size="76" letter-spacing="3" fill="url(#gold)" stroke="#f5f8ff" stroke-width="4" paint-order="stroke">RINASCITA</text>
+  <text x="360" y="315" font-size="19" letter-spacing="5" fill="#ffffff" stroke="#071d32" stroke-width="5" paint-order="stroke">MINECRAFT CAMPAIGN OS</text>
+</g>
+
+<!-- bottom strip -->
+<rect x="172" y="347" width="376" height="40" rx="20" fill="#072338" stroke="#20e0ff" stroke-opacity=".65"/>
+<text x="360" y="373" font-family="Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle" fill="#66ffd0">L'AVVENTURA CONTINUA</text>
+</svg>

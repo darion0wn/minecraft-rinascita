@@ -1,39 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 960" role="img" aria-label="Mappa strategica del seed di Minecraft Rinascita">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1512"/><stop offset="1" stop-color="#17231d"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="5" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#087ac4"/><stop offset=".48" stop-color="#07528c"/><stop offset="1" stop-color="#062f5b"/></linearGradient>
+  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#9ee8ff" stroke-opacity=".18"/></pattern>
+  <pattern id="forest" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#159447"/><path d="M0 31L11 19l12 7 17-13v27H0Z" fill="#0c6a3e" opacity=".55"/><circle cx="8" cy="11" r="3" fill="#32ca6c"/></pattern>
+  <pattern id="plains" width="42" height="42" patternUnits="userSpaceOnUse"><rect width="42" height="42" fill="#6fd47b"/><path d="M0 32L16 23 28 28 42 18V42H0Z" fill="#48b963" opacity=".52"/></pattern>
+  <pattern id="desert" width="44" height="44" patternUnits="userSpaceOnUse"><rect width="44" height="44" fill="#e6bf58"/><path d="M0 31L13 24 24 29 44 16V44H0Z" fill="#cf9f3e" opacity=".48"/></pattern>
+  <pattern id="snow" width="44" height="44" patternUnits="userSpaceOnUse"><rect width="44" height="44" fill="#e8f5fa"/><path d="M0 31L16 20 31 27 44 16V44H0Z" fill="#c1dce8" opacity=".72"/></pattern>
+  <pattern id="badlands" width="46" height="46" patternUnits="userSpaceOnUse"><rect width="46" height="46" fill="#c66d45"/><path d="M0 33L11 19 24 29 35 14 46 19v27H0Z" fill="#a24737" opacity=".55"/></pattern>
+  <pattern id="cherry" width="38" height="38" patternUnits="userSpaceOnUse"><rect width="38" height="38" fill="#bdf09a"/><circle cx="8" cy="9" r="5" fill="#f29bc4"/><circle cx="23" cy="6" r="4" fill="#ffa8d0"/><circle cx="30" cy="22" r="5" fill="#ea7fb8"/><path d="M10 15v15M25 12v18" stroke="#5f9c53" stroke-width="3"/></pattern>
+  <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000" flood-opacity=".4"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .coord{font: 20px Arial,sans-serif;fill:#e6f7ff}
+    .legend{font:16px Arial,sans-serif;fill:#eaf6ff}
+    .tiny{font:13px Arial,sans-serif;fill:#bfe6f5}
+    .label{font:700 17px Arial,sans-serif;fill:#fff;paint-order:stroke;stroke:#0b2034;stroke-width:5}
+  </style>
 </defs>
-<rect width="1200" height="760" fill="url(#bg)"/>
-<path d="M0 120 C180 40, 310 150, 460 90 S800 40, 1200 150 L1200 0 L0 0 Z" fill="#1f3329" opacity=".6"/>
-<path d="M0 570 C190 480, 300 650, 500 560 S900 500, 1200 610 L1200 760 L0 760 Z" fill="#101a16"/>
-<path d="M90 610 C190 480 300 430 430 390 S650 340 820 240 S1040 210 1160 150" fill="none" stroke="#3e6756" stroke-width="24" opacity=".5"/>
-<path d="M40 420 C190 360 300 380 450 430 S700 560 820 520 S1020 430 1180 470" fill="none" stroke="#29546a" stroke-width="42" opacity=".55"/>
-<g opacity=".35" fill="#6b8d72">
-  <path d="M160 240 l40 -90 40 90 z M230 210 l50 -110 50 110 z M980 260 l55 -120 55 120 z M900 330 l42 -100 50 100 z"/>
-</g>
-<g font-family="Arial, sans-serif">
-  <text x="50" y="55" fill="#e7f5ec" font-size="28" font-weight="700">Mappa strategica — Rinascita</text>
-  <text x="50" y="84" fill="#9bb6a6" font-size="16">Coordinate chiave del seed · non è una copia topografica 1:1</text>
-</g>
-<!-- routes -->
-<g stroke="#d9b66f" stroke-width="6" stroke-dasharray="12 10" opacity=".75" fill="none">
-  <path d="M545 410 L520 290 L640 175"/>
-  <path d="M545 410 L590 520 L740 555"/>
-  <path d="M545 410 L450 500"/>
-  <path d="M545 410 L835 280"/>
-</g>
-<!-- markers -->
-<g font-family="Arial, sans-serif">
-  <circle cx="545" cy="410" r="18" fill="#f2b84b" filter="url(#glow)"/><circle cx="545" cy="410" r="8" fill="#171c18"/>
-  <text x="570" y="405" fill="#fff4d5" font-size="19" font-weight="700">Villaggio dei Ciliegi</text>
-  <text x="570" y="428" fill="#b8c8be" font-size="14">X 344 · Z -312 · FUTURA CAPITALE</text>
 
-  <circle cx="520" cy="290" r="13" fill="#86b6ff"/><text x="543" y="286" fill="#dce8ff" font-size="16" font-weight="700">Trial Chamber NW</text><text x="543" y="307" fill="#b8c8be" font-size="13">X 311 · Y -28 · Z -425</text>
-  <circle cx="450" cy="500" r="13" fill="#b06cff"/><text x="470" y="496" fill="#eadcff" font-size="16" font-weight="700">Portale in rovina</text><text x="470" y="517" fill="#b8c8be" font-size="13">X 344 · Z -584</text>
-  <circle cx="640" cy="175" r="13" fill="#86b6ff"/><text x="662" y="171" fill="#dce8ff" font-size="16" font-weight="700">Trial Chamber Est</text><text x="662" y="192" fill="#b8c8be" font-size="13">X 713 · Y -14 · Z -457</text>
-  <circle cx="740" cy="555" r="13" fill="#b06cff"/><text x="760" y="551" fill="#eadcff" font-size="16" font-weight="700">Portale in rovina Est</text><text x="760" y="572" fill="#b8c8be" font-size="13">X 712 · Z -488</text>
-  <circle cx="835" cy="280" r="13" fill="#74d39b"/><text x="855" y="276" fill="#d8f9e5" font-size="16" font-weight="700">Villaggio delle Pianure</text><text x="855" y="297" fill="#b8c8be" font-size="13">X 792 · Z -344</text>
+<rect width="1800" height="960" fill="#052a4c"/>
+<rect x="28" y="28" width="1744" height="904" rx="28" fill="url(#sea)" stroke="#20d5ff" stroke-width="2"/>
+<rect x="48" y="48" width="1704" height="864" rx="22" fill="url(#grid)" opacity=".75"/>
+
+<!-- map frame & subtle latitude bands -->
+<g opacity=".18" stroke="#b3efff" stroke-width="2" stroke-dasharray="7 12">
+  <path d="M80 240H1720M80 440H1720M80 640H1720M80 820H1720"/>
+  <path d="M300 70V890M600 70V890M900 70V890M1200 70V890M1500 70V890"/>
 </g>
-<rect x="50" y="650" width="1100" height="64" rx="18" fill="#0c100e" opacity=".85" stroke="#2a3c31"/>
-<text x="78" y="688" fill="#c4d5ca" font-size="16">Legenda: oro = capitale · blu = Trial Chamber · viola = portale · verde = villaggio</text>
+
+<!-- LANDMASSES -->
+<g filter="url(#shadow)">
+  <!-- northwest forest -->
+  <path d="M82 106L185 76 292 93 372 74 456 105 510 162 498 236 451 286 394 304 330 278 277 313 188 296 118 332 67 276Z" fill="url(#forest)" stroke="#0a5d3b" stroke-width="6"/>
+  <!-- north plains/cherry -->
+  <path d="M524 83L621 64 708 86 772 71 839 112 850 194 818 261 748 285 672 267 619 298 540 267 500 214 514 155Z" fill="url(#plains)" stroke="#4caa60" stroke-width="5"/>
+  <path d="M667 100L734 92 794 125 813 191 777 241 712 249 676 211Z" fill="url(#cherry)" opacity=".92"/>
+  <!-- snowy ridge -->
+  <path d="M860 90L945 66 1047 101 1112 73 1208 109 1251 185 1229 262 1167 301 1084 273 1027 302 943 273 901 214Z" fill="url(#snow)" stroke="#b9d5e2" stroke-width="6"/>
+  <!-- east forest -->
+  <path d="M1270 85L1377 95 1462 73 1570 111 1689 108 1728 197 1694 276 1635 292 1589 344 1507 320 1443 351 1360 315 1300 276 1256 203Z" fill="url(#forest)" stroke="#0a5d3b" stroke-width="6"/>
+  <!-- central large land -->
+  <path d="M360 335L435 298 530 324 615 305 711 334 790 307 890 332 958 309 1042 345 1144 314 1234 348 1291 408 1272 493 1308 565 1263 647 1171 656 1104 706 1013 683 935 732 848 705 778 742 695 700 622 718 558 688 487 708 425 668 397 602 428 524 395 448 420 380 398Z" fill="url(#plains)" stroke="#4da860" stroke-width="7"/>
+  <!-- deserts in central east -->
+  <path d="M1052 390L1142 346 1243 372 1291 435 1278 505 1199 545 1114 532 1070 478Z" fill="url(#desert)" stroke="#c89b3e" stroke-width="5"/>
+  <!-- badlands -->
+  <path d="M1356 391L1442 358 1536 393 1576 455 1541 528 1463 553 1390 517 1352 468Z" fill="url(#badlands)" stroke="#9d4736" stroke-width="5"/>
+  <!-- southern jungle/plains -->
+  <path d="M120 472L211 448 293 473 353 439 427 476 466 548 437 619 362 648 291 633 231 666 154 622 109 548Z" fill="url(#forest)" stroke="#0a5d3b" stroke-width="6"/>
+  <!-- south cherry -->
+  <path d="M472 545L551 504 630 526 687 575 669 650 612 681 542 666 486 628Z" fill="url(#cherry)" stroke="#b66f9a" stroke-width="5"/>
+  <!-- south snow -->
+  <path d="M746 520L812 484 892 514 948 568 925 642 865 681 783 655 735 603Z" fill="url(#snow)" stroke="#b9d5e2" stroke-width="5"/>
+  <!-- far south desert -->
+  <path d="M974 689L1058 635 1166 651 1243 704 1240 804 1170 864 1073 845 1014 801Z" fill="url(#desert)" stroke="#c89b3e" stroke-width="6"/>
+  <!-- southwest -->
+  <path d="M128 702L230 674 322 708 382 765 347 845 259 872 175 835 116 788Z" fill="url(#plains)" stroke="#4da860" stroke-width="6"/>
+</g>
+
+<!-- small islands -->
+<g fill="url(#forest)" stroke="#0a5d3b" stroke-width="4">
+<path d="M70 370l47-29 58 17 15 45-42 36-61-11z"/>
+<path d="M1510 560l55-34 59 24 8 54-47 25-60-20z"/>
+<path d="M1558 700l46-22 57 28-9 48-62 8z"/>
+<path d="M620 760l48-21 52 26-11 44-56 19-45-28z"/>
+<path d="M380 176l48-15 39 25-9 40-56 13-34-29z"/>
+</g>
+
+<!-- coordinate axes -->
+<g class="coord">
+  <text x="86" y="63">-4000</text><text x="405" y="63">-3000</text><text x="720" y="63">-2000</text><text x="1038" y="63">-1000</text><text x="1356" y="63">0</text><text x="1600" y="63">1000</text>
+  <text x="36" y="170">-3000</text><text x="36" y="370">-2000</text><text x="36" y="568">-1000</text><text x="56" y="768">0</text>
+</g>
+
+<!-- north compass -->
+<g transform="translate(1635 128)" filter="url(#glow)">
+  <circle r="41" fill="#06233c" stroke="#aeeaff" stroke-width="2"/>
+  <path d="M0-31L10 0 0 31-10 0Z" fill="#ff4c43"/><path d="M0-31L-10 0 0 31 10 0Z" fill="#f5f8ff" opacity=".95"/>
+  <text y="-52" text-anchor="middle" class="coord" font-weight="700">N</text>
+</g>
+
+<!-- markers -->
+<g filter="url(#shadow)">
+  <!-- capital pin -->
+  <path d="M657 430c0-31 25-56 56-56s56 25 56 56c0 43-56 84-56 84s-56-41-56-84z" fill="#ff4d45" stroke="#fff" stroke-width="5"/>
+  <circle cx="713" cy="430" r="17" fill="#fff"/><path d="M704 428h18l-3 13h-12z" fill="#2b79bb"/>
+  <!-- village icons -->
+  <g fill="#fff" stroke="#0b2034" stroke-width="4">
+    <path d="M177 233l25-24 25 24v33h-50z" fill="#ffe3b5"/><path d="M171 233l31-32 31 32-8 7-23-25-23 25z" fill="#d87c3f"/>
+    <path d="M1250 221l25-24 25 24v32h-50z" fill="#ffe3b5"/><path d="M1244 221l31-32 31 32-8 7-23-25-23 25z" fill="#d87c3f"/>
+    <path d="M1535 303l25-24 25 24v32h-50z" fill="#ffe3b5"/><path d="M1529 303l31-32 31 32-8 7-23-25-23 25z" fill="#d87c3f"/>
+    <path d="M416 774l25-24 25 24v32h-50z" fill="#ffe3b5"/><path d="M410 774l31-32 31 32-8 7-23-25-23 25z" fill="#d87c3f"/>
+  </g>
+  <!-- structures -->
+  <g>
+    <circle cx="520" cy="335" r="27" fill="#242b35" stroke="#bdf2ff" stroke-width="4"/><path d="M503 350v-27l17-11 17 11v27z" fill="#6f8090"/>
+    <circle cx="1050" cy="228" r="27" fill="#702bba" stroke="#efc1ff" stroke-width="4"/><path d="M1037 228h26v31h-26z" fill="#2f163d"/><path d="M1042 239h16v14h-16z" fill="#bc6cff"/>
+    <circle cx="1185" cy="607" r="27" fill="#152338" stroke="#bdf2ff" stroke-width="4"/><path d="M1171 604l14-18 14 18v28h-28z" fill="#5e7489"/>
+    <circle cx="463" cy="592" r="27" fill="#14b9b9" stroke="#bffcff" stroke-width="4"/><path d="M450 613v-20l13-13 13 13v20z" fill="#77f7e2"/>
+  </g>
+</g>
+
+<!-- label callouts -->
+<g>
+  <rect x="742" y="372" width="250" height="70" rx="12" fill="#06213a" stroke="#ff6a55" stroke-width="2"/>
+  <text x="761" y="401" class="label">Villaggio dei Ciliegi</text>
+  <text x="761" y="426" class="tiny">X: 344 · Z: -312 · CAPITALE</text>
+</g>
+
+<!-- legend -->
+<g transform="translate(1320 735)">
+  <rect x="0" y="0" width="430" height="150" rx="18" fill="#06182b" fill-opacity=".94" stroke="#2ddfff" stroke-opacity=".35"/>
+  <text x="22" y="28" class="legend" font-weight="700" fill="#5fffe2">LEGENDA</text>
+  <rect x="24" y="46" width="18" height="18" fill="#07528c"/><text x="53" y="60" class="legend">Oceano</text>
+  <rect x="126" y="46" width="18" height="18" fill="#159447"/><text x="155" y="60" class="legend">Foresta</text>
+  <rect x="244" y="46" width="18" height="18" fill="#6fd47b"/><text x="273" y="60" class="legend">Pianura</text>
+  <rect x="24" y="78" width="18" height="18" fill="#e6bf58"/><text x="53" y="92" class="legend">Deserto</text>
+  <rect x="126" y="78" width="18" height="18" fill="#e8f5fa"/><text x="155" y="92" class="legend">Neve</text>
+  <rect x="244" y="78" width="18" height="18" fill="#c66d45"/><text x="273" y="92" class="legend">Badlands</text>
+  <text x="24" y="122" class="tiny">● Capitale   □ Villaggio   ◇ Struttura   ✦ Portale</text>
+</g>
 </svg>
