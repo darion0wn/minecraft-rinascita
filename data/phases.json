@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Il Sopravvissuto",
+    "range": "Giorni 1–5",
+    "tone": "sopravvivere"
+  },
+  {
+    "id": 2,
+    "name": "Il Primo Insediamento",
+    "range": "Giorni 5–15",
+    "tone": "radicare"
+  },
+  {
+    "id": 3,
+    "name": "La Capitale",
+    "range": "Giorni 15–50",
+    "tone": "costruire"
+  },
+  {
+    "id": 4,
+    "name": "La Rivoluzione Industriale",
+    "range": "Giorni 50–100+",
+    "tone": "automatizzare"
+  },
+  {
+    "id": 5,
+    "name": "Il Regno",
+    "range": "midgame",
+    "tone": "espandere"
+  },
+  {
+    "id": 6,
+    "name": "L'End",
+    "range": "late game",
+    "tone": "concludere l'arco"
+  },
+  {
+    "id": 7,
+    "name": "La Rinascita",
+    "range": "300 giorni",
+    "tone": "ricordare"
+  }
+]

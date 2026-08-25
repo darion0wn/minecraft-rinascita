@@ -1,0 +1,206 @@
+[
+  {
+    "id": "o01",
+    "phase": 1,
+    "title": "Sopravvivere 5 giorni",
+    "desc": "Supera i primi cinque giorni senza saltare la progressione.",
+    "tags": [
+      "survival"
+    ],
+    "points": 5
+  },
+  {
+    "id": "o02",
+    "phase": 1,
+    "title": "Trovare il luogo della capitale",
+    "desc": "Raggiungi e riconosci il Villaggio dei Ciliegi come futuro cuore del regno.",
+    "tags": [
+      "capital"
+    ],
+    "points": 5
+  },
+  {
+    "id": "o03",
+    "phase": 1,
+    "title": "Costruire la prima casa",
+    "desc": "Abbandona il riparo provvisorio e costruisci una vera casa.",
+    "tags": [
+      "building"
+    ],
+    "points": 5
+  },
+  {
+    "id": "o04",
+    "phase": 2,
+    "title": "Collegare il primo villaggio",
+    "desc": "Crea un collegamento sicuro e percorribile.",
+    "tags": [
+      "infrastructure"
+    ],
+    "points": 5
+  },
+  {
+    "id": "o05",
+    "phase": 2,
+    "title": "Costruire la prima strada",
+    "desc": "Segna il primo tratto della futura rete stradale.",
+    "tags": [
+      "infrastructure"
+    ],
+    "points": 5
+  },
+  {
+    "id": "o06",
+    "phase": 2,
+    "title": "Esplorare una struttura sconosciuta",
+    "desc": "Completa la prima vera spedizione.",
+    "tags": [
+      "exploration"
+    ],
+    "points": 10
+  },
+  {
+    "id": "o07",
+    "phase": 2,
+    "title": "Costruire la torre di guardia",
+    "desc": "Dai all'insediamento il primo punto panoramico difensivo.",
+    "tags": [
+      "building"
+    ],
+    "points": 5
+  },
+  {
+    "id": "o08",
+    "phase": 3,
+    "title": "Creare il centro storico",
+    "desc": "Piazza, municipio, strade e identità della capitale.",
+    "tags": [
+      "city"
+    ],
+    "points": 10
+  },
+  {
+    "id": "o09",
+    "phase": 3,
+    "title": "Creare il quartiere industriale",
+    "desc": "Prepara lo spazio per la rivoluzione tecnologica.",
+    "tags": [
+      "industry"
+    ],
+    "points": 10
+  },
+  {
+    "id": "o10",
+    "phase": 3,
+    "title": "Costruire il porto",
+    "desc": "Crea il primo hub logistico della capitale.",
+    "tags": [
+      "city",
+      "infrastructure"
+    ],
+    "points": 10
+  },
+  {
+    "id": "o11",
+    "phase": 3,
+    "title": "Esplorare almeno 2.000 blocchi",
+    "desc": "Allontanati abbastanza da avere davvero un mondo da scoprire.",
+    "tags": [
+      "exploration"
+    ],
+    "points": 10
+  },
+  {
+    "id": "o12",
+    "phase": 4,
+    "title": "Creare una rete ferroviaria",
+    "desc": "Collega almeno due punti importanti.",
+    "tags": [
+      "infrastructure"
+    ],
+    "points": 15
+  },
+  {
+    "id": "o13",
+    "phase": 4,
+    "title": "Costruire la Torre della Rinascita",
+    "desc": "Il monumento che diventerà il simbolo del mondo.",
+    "tags": [
+      "monument"
+    ],
+    "points": 20
+  },
+  {
+    "id": "o14",
+    "phase": 4,
+    "title": "Scoprire il segreto sotto la capitale",
+    "desc": "Esplora il sottosuolo e crea la stanza 'La Frattura'.",
+    "tags": [
+      "lore",
+      "exploration"
+    ],
+    "points": 20
+  },
+  {
+    "id": "o15",
+    "phase": 5,
+    "title": "Costruire l'avamposto del Nether",
+    "desc": "Dai al Nether una funzione stabile nel regno.",
+    "tags": [
+      "nether"
+    ],
+    "points": 15
+  },
+  {
+    "id": "o16",
+    "phase": 5,
+    "title": "Sconfiggere il Wither",
+    "desc": "Prima grande prova di combattimento.",
+    "tags": [
+      "combat"
+    ],
+    "points": 20
+  },
+  {
+    "id": "o17",
+    "phase": 6,
+    "title": "Entrare nell'End",
+    "desc": "Apri ufficialmente l'ultimo arco della campagna.",
+    "tags": [
+      "end"
+    ],
+    "points": 20
+  },
+  {
+    "id": "o18",
+    "phase": 6,
+    "title": "Sconfiggere l'Ender Dragon",
+    "desc": "Vinci la battaglia, ma non considerare finita la run.",
+    "tags": [
+      "end",
+      "boss"
+    ],
+    "points": 25
+  },
+  {
+    "id": "o19",
+    "phase": 6,
+    "title": "Costruire il Monumento della Rinascita",
+    "desc": "Conserva le memorie fondamentali della run.",
+    "tags": [
+      "monument",
+      "lore"
+    ],
+    "points": 25
+  },
+  {
+    "id": "o20",
+    "phase": 7,
+    "title": "Arrivare a 300 giorni",
+    "desc": "Guarda il mondo che hai costruito e non riconoscere più lo spawn.",
+    "tags": [
+      "endgame"
+    ],
+    "points": 30
+  }
+]

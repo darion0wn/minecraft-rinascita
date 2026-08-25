@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minecraft: Rinascita</title>
+  <meta name="description" content="Control center personale per la campagna Minecraft: Rinascita.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">R</div><div><strong>RINASCITA</strong><span>Minecraft Campaign OS</span></div></div>
+    <nav id="nav">
+      <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+      <button class="nav-btn" data-view="map">Mappa</button>
+      <button class="nav-btn" data-view="objectives">Obiettivi</button>
+      <button class="nav-btn" data-view="world">Il Mondo</button>
+      <button class="nav-btn" data-view="technology">Tecnologia</button>
+      <button class="nav-btn" data-view="addons">Add-on</button>
+      <button class="nav-btn" data-view="journal">Diario</button>
+    </nav>
+    <div class="sidebar-foot">Bedrock · Seed <span>7568542259593820684</span></div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">CONTROL CENTER</div>
+        <h1 id="viewTitle">La tua run, non una checklist.</h1>
+      </div>
+      <div class="world-status">
+        <label>Giorno <input id="dayInput" type="number" min="0" value="1"></label>
+        <label>Fase <select id="phaseInput"></select></label>
+      </div>
+    </header>
+
+    <section id="dashboard" class="view active">
+      <div class="hero card">
+        <div>
+          <div class="kicker">LA FRATTURA</div>
+          <h2>“Ricostruisci ciò che è stato perduto.”</h2>
+          <p>Sei arrivato in un mondo che non conosci. Non devi semplicemente finirlo: devi trasformarlo in qualcosa che, dopo 300 giorni, non riconoscerai più.</p>
+          <div class="actions">
+            <button class="primary" data-go="map">Apri mappa</button>
+            <button class="ghost" data-go="objectives">Continua la campagna</button>
+          </div>
+        </div>
+        <div class="hero-stat"><strong id="progressPct">0%</strong><span>campagna</span></div>
+      </div>
+      <div class="grid-3">
+        <div class="card stat-card"><span>Obiettivi</span><strong id="completedCount">0 / 20</strong><small id="pointsCount">0 punti</small></div>
+        <div class="card stat-card"><span>Giorno</span><strong id="dayDisplay">1</strong><small id="phaseDisplay">Il Sopravvissuto</small></div>
+        <div class="card stat-card"><span>Capitale</span><strong>344 / -312</strong><small>Villaggio dei Ciliegi</small></div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="section-head"><div><span class="eyebrow">PROSSIMO PASSO</span><h3 id="nextMissionTitle">Sopravvivere 5 giorni</h3></div><span class="pill">non spoiler</span></div>
+          <p id="nextMissionDesc"></p>
+          <button class="inline-link" data-go="objectives">Vedi tutti gli obiettivi →</button>
+        </div>
+        <div class="card">
+          <div class="section-head"><div><span class="eyebrow">REGOLE</span><h3>Come giocare questa run</h3></div></div>
+          <ul id="rulesList" class="clean-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="map" class="view">
+      <div class="section-title"><div><div class="eyebrow">WORLD MAP</div><h2>Territorio della Rinascita</h2></div><a class="primary link-btn" href="https://www.chunkbase.com/apps/seed-map" target="_blank" rel="noopener">Mappa completa su Chunkbase ↗</a></div>
+      <div class="card map-card"><img src="assets/map.svg" alt="Mappa strategica del seed Rinascita"><div id="mapLocations" class="location-grid"></div></div>
+    </section>
+
+    <section id="objectives" class="view">
+      <div class="section-title"><div><div class="eyebrow">CAMPAIGN</div><h2>Obiettivi</h2></div><div class="filters" id="phaseFilters"></div></div>
+      <div id="objectivesList" class="objective-list"></div>
+    </section>
+
+    <section id="world" class="view">
+      <div class="section-title"><div><div class="eyebrow">WORLD STATE</div><h2>Il Mondo</h2></div></div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="eyebrow">DATI DEL MONDO</div>
+          <div class="data-grid">
+            <label>Seed<input value="7568542259593820684" readonly></label>
+            <label>Versione<input value="Bedrock / versione recente" readonly></label>
+            <label>Capitale X<input value="344"></label>
+            <label>Capitale Z<input value="-312"></label>
+            <label>Coordinate attuali X<input id="currentX" type="number" placeholder="0"></label>
+            <label>Coordinate attuali Z<input id="currentZ" type="number" placeholder="0"></label>
+          </div>
+          <p class="note">Le coordinate della mappa sono riferimenti strategici. Usa la mappa completa per verificare struttura e generazione della tua versione.</p>
+        </div>
+        <div class="card">
+          <div class="eyebrow">PROGETTI</div>
+          <div id="projects">
+            <div class="project"><div><strong>Capitale</strong><small>Villaggio → città</small></div><span class="pill">Inizio</span></div>
+            <div class="project"><div><strong>Torre della Rinascita</strong><small>Monumento principale</small></div><span class="pill">Bloccata</span></div>
+            <div class="project"><div><strong>Autostrada del Regno</strong><small>Capitale → mondo</small></div><span class="pill">Pianificata</span></div>
+            <div class="project"><div><strong>Zona Industriale</strong><small>Energia → macchinari → automazione</small></div><span class="pill">Pianificata</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="technology" class="view">
+      <div class="section-title"><div><div class="eyebrow">PROGRESSION</div><h2>Era tecnologica</h2></div></div>
+      <div class="tech-path">
+        <article class="tech-node active-node"><span>01</span><h3>Sopravvivenza</h3><p>Legno, pietra, ferro, agricoltura.</p></article>
+        <div class="connector"></div>
+        <article class="tech-node"><span>02</span><h3>Infrastrutture</h3><p>Strade, stazioni, miniere, logistica.</p></article>
+        <div class="connector"></div>
+        <article class="tech-node"><span>03</span><h3>Industria</h3><p>Un solo grande add-on Tech/Industrial.</p></article>
+        <div class="connector"></div>
+        <article class="tech-node"><span>04</span><h3>Automazione</h3><p>Produzione e magazzini più efficienti.</p></article>
+      </div>
+      <div class="card warning"><strong>Regola d'oro:</strong> tecnologia sì, ma non tutto insieme. Se una macchina richiede 17 sistemi per costruire il cavo del cavo del generatore, hai già perso.</div>
+    </section>
+
+    <section id="addons" class="view">
+      <div class="section-title"><div><div class="eyebrow">LOADOUT</div><h2>Add-on</h2></div><span class="pill">PS4 / Bedrock · approccio leggero</span></div>
+      <div id="addonList" class="addon-list"></div>
+      <div class="card note"><strong>Nota:</strong> gli add-on del Marketplace si attivano dentro le impostazioni del mondo tramite Resource Packs / Behavior Packs. Questa dashboard tiene traccia della configurazione; non include né redistribuisce i file dei DLC acquistati. <a href="https://help.minecraft.net/hc/en-us/articles/24120525083533" target="_blank" rel="noopener">Guida ufficiale ↗</a></div>
+    </section>
+
+    <section id="journal" class="view">
+      <div class="section-title"><div><div class="eyebrow">LOGBOOK</div><h2>Diario della spedizione</h2></div></div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="eyebrow">NUOVA ENTRATA</div>
+          <input id="journalTitle" placeholder="Titolo, es. “Il primo tramonto”">
+          <textarea id="journalText" rows="8" placeholder="Scrivi cosa hai fatto, cosa hai trovato, idee per la città..."></textarea>
+          <button class="primary" id="saveJournal">Salva nel diario</button>
+        </div>
+        <div class="card">
+          <div class="eyebrow">STORIA DEL MONDO</div>
+          <div id="journalEntries"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">RINASCITA · campagna personale · salvataggio locale nel browser · pronto per GitHub Pages</footer>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

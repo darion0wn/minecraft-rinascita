@@ -1,0 +1,72 @@
+[
+  {
+    "id": "a01",
+    "name": "Naturalist Add-On",
+    "category": "Fauna",
+    "status": "planned",
+    "priority": "Alta",
+    "description": "Fauna molto più ricca per rendere esplorazione e ambientazione più vive.",
+    "official": "https://www.minecraft.net/it-it/marketplace/pdp/starfish-studios/naturalist-add--on-3.1/7cb1d924-4a39-452d-88bc-daa5f8843f54",
+    "note": "Versione Marketplace aggiornata nel 2026; 200+ animali dichiarati dal pacchetto."
+  },
+  {
+    "id": "a02",
+    "name": "Better Structures Add-On",
+    "category": "Esplorazione",
+    "status": "planned",
+    "priority": "Alta",
+    "description": "Strutture, dungeon e luoghi da scoprire per dare un motivo alle spedizioni.",
+    "official": "https://www.minecraft.net/en-us/marketplace",
+    "note": "Cercare 'Better Structures' di BLOCKLAB Studios nel Marketplace."
+  },
+  {
+    "id": "a03",
+    "name": "Furniture Add-On",
+    "category": "Costruzioni",
+    "status": "planned",
+    "priority": "Media",
+    "description": "Arredamento per case, uffici, hotel, negozi, municipio e garage.",
+    "official": "https://www.minecraft.net/en-us/marketplace",
+    "note": "Preferire un pacchetto semplice e poco invasivo."
+  },
+  {
+    "id": "a04",
+    "name": "Backpack Add-On",
+    "category": "Quality of Life",
+    "status": "planned",
+    "priority": "Media",
+    "description": "Più spazio per le spedizioni senza trasformare il gameplay.",
+    "official": "https://www.minecraft.net/en-us/marketplace",
+    "note": "Scegliere un pacchetto leggero e compatibile con la versione usata."
+  },
+  {
+    "id": "a05",
+    "name": "Tech / Industrial Add-On",
+    "category": "Tecnologia",
+    "status": "planned",
+    "priority": "Altissima",
+    "description": "Un solo grande add-on tecnologico: energia, macchinari, automazione, produzione.",
+    "official": "https://www.minecraft.net/en-us/marketplace",
+    "note": "Da scegliere dopo aver testato il mondo base. Evitare di sovrapporre più modpack tecnologici."
+  },
+  {
+    "id": "a06",
+    "name": "Vehicles Add-On",
+    "category": "Trasporti",
+    "status": "planned",
+    "priority": "Alta",
+    "description": "Auto, SUV, camion e mezzi per dare vita a strade, autostrade, officine e concessionarie.",
+    "official": "https://www.minecraft.net/en-us/marketplace",
+    "note": "Aggiungere dopo la fase iniziale; non esagerare con entità in movimento."
+  },
+  {
+    "id": "a07",
+    "name": "Combat / Horror Add-On",
+    "category": "Late Game",
+    "status": "later",
+    "priority": "Bassa",
+    "description": "Nuovi nemici e boss per un arco narrativo più oscuro.",
+    "official": "https://www.minecraft.net/en-us/marketplace",
+    "note": "Da aggiungere solo a mondo stabile e già avviato."
+  }
+]
