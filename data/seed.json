@@ -7,7 +7,7 @@
     "z": -312,
     "label": "Villaggio dei Ciliegi — prima tappa"
   },
-  "version_note": "Seed verificato per Bedrock nelle versioni recenti; la generazione può variare se cambi versione o usi add-on che modificano la world generation. Il Villaggio dei Ciliegi è stato esplorato il Giorno 1 e non è ancora la capitale.",
+  "version_note": "Seed confermato per Bedrock 26.44. La mappa del sito è una panoramica statica del settore iniziale costruita attorno alle strutture note del seed; per la cartografia completa e la verifica puntuale usa il Seed Map esterno. Il Villaggio dei Ciliegi è stato esplorato il Giorno 1 e non è ancora la capitale.",
   "locations": [
     {"id":"capital","type":"base","name":"Capitale della Rinascita","x":0,"z":0,"status":"unknown","description":"Ancora da trovare. Nessuna capitale verrà scelta finché il luogo giusto non farà venire voglia di tornarci."},
     {"id":"cherry","type":"village","name":"Villaggio dei Ciliegi","x":344,"z":-312,"status":"explored","description":"Prima tappa della run, esplorata il Giorno 1. Bella, ma non abbastanza convincente da diventare la capitale."},

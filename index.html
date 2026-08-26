@@ -68,26 +68,22 @@
 
     <section id="map" class="view">
       <div class="section-title">
-        <div><div class="eyebrow">WORLD MAP</div><h2>Mappa del mondo</h2><p class="map-subtitle">Seed Map di Chunkbase · Bedrock 26.44 · Seed 7568542259593820684</p></div>
+        <div><div class="eyebrow">WORLD MAP</div><h2>Mappa del seed</h2><p class="map-subtitle">Panoramica statica del seed · Bedrock 26.44 · Seed 7568542259593820684</p></div>
         <div class="map-actions">
-          <a class="primary link-btn" href="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_26_4&dimension=overworld&x=0&z=0&zoom=0.5" target="_blank" rel="noopener noreferrer">Apri su Chunkbase ↗</a>
+          <a class="primary link-btn" href="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_26_4&dimension=overworld&x=0&z=0&zoom=0.5" target="_blank" rel="noopener noreferrer">Esplora su Chunkbase ↗</a>
         </div>
       </div>
-      <div class="card map-card map-card-live">
+      <div class="card map-card map-card-static">
         <div class="map-toolbar">
-          <div class="map-toolbar-title"><span class="live-dot"></span><strong>LIVE SEED MAP</strong><span class="pill">CHUNKBASE</span></div>
-          <div class="map-toolbar-meta">Bedrock 26.44 · Overworld</div>
+          <div class="map-toolbar-title"><span class="live-dot"></span><strong>SEED OVERVIEW</strong><span class="pill">STATIC MAP</span></div>
+          <div class="map-toolbar-meta">Coordinate e strutture note del tuo mondo</div>
         </div>
-        <div class="chunkbase-frame-wrap">
-          <iframe id="chunkbaseMap" title="Chunkbase Seed Map - Minecraft Rinascita" src="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_26_4&dimension=overworld&x=0&z=0&zoom=0.5" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen"></iframe>
-          <div class="chunkbase-fallback">
-            <strong>La mappa di Chunkbase non può essere incorporata in questa pagina.</strong>
-            <span>Aprila direttamente con il pulsante qui sopra.</span>
-          </div>
+        <div class="seed-map-wrap">
+          <img class="seed-map-image" src="assets/map.svg" alt="Mappa strategica statica del seed 7568542259593820684 con villaggi, Trial Chambers e portali noti">
         </div>
         <div class="map-credit">
-          <span>Cartografia e calcolo delle strutture: <strong>Chunkbase</strong></span>
-          <span>Il seed e la versione sono già configurati nel collegamento.</span>
+          <span>Panoramica costruita attorno al seed reale e alle strutture verificate.</span>
+          <span>Per l'esplorazione completa usa Chunkbase dal pulsante qui sopra.</span>
         </div>
         <div id="mapLocations" class="location-grid"></div>
       </div>
