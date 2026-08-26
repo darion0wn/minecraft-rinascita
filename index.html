@@ -67,8 +67,30 @@
     </section>
 
     <section id="map" class="view">
-      <div class="section-title"><div><div class="eyebrow">WORLD MAP</div><h2>Territorio della Rinascita</h2></div><a class="primary link-btn" href="https://www.chunkbase.com/apps/seed-map" target="_blank" rel="noopener">Mappa completa su Chunkbase ↗</a></div>
-      <div class="card map-card"><img src="assets/map.svg" alt="Mappa strategica del seed Rinascita"><div id="mapLocations" class="location-grid"></div></div>
+      <div class="section-title">
+        <div><div class="eyebrow">WORLD MAP</div><h2>Mappa del mondo</h2><p class="map-subtitle">Seed Map di Chunkbase · Bedrock 26.44 · Seed 7568542259593820684</p></div>
+        <div class="map-actions">
+          <a class="primary link-btn" href="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_26_4&dimension=overworld&x=0&z=0&zoom=0.5" target="_blank" rel="noopener noreferrer">Apri su Chunkbase ↗</a>
+        </div>
+      </div>
+      <div class="card map-card map-card-live">
+        <div class="map-toolbar">
+          <div class="map-toolbar-title"><span class="live-dot"></span><strong>LIVE SEED MAP</strong><span class="pill">CHUNKBASE</span></div>
+          <div class="map-toolbar-meta">Bedrock 26.44 · Overworld</div>
+        </div>
+        <div class="chunkbase-frame-wrap">
+          <iframe id="chunkbaseMap" title="Chunkbase Seed Map - Minecraft Rinascita" src="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_26_4&dimension=overworld&x=0&z=0&zoom=0.5" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen"></iframe>
+          <div class="chunkbase-fallback">
+            <strong>La mappa di Chunkbase non può essere incorporata in questa pagina.</strong>
+            <span>Aprila direttamente con il pulsante qui sopra.</span>
+          </div>
+        </div>
+        <div class="map-credit">
+          <span>Cartografia e calcolo delle strutture: <strong>Chunkbase</strong></span>
+          <span>Il seed e la versione sono già configurati nel collegamento.</span>
+        </div>
+        <div id="mapLocations" class="location-grid"></div>
+      </div>
     </section>
 
     <section id="objectives" class="view">
