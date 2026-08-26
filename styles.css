@@ -149,23 +149,19 @@ textarea{resize:vertical;width:100%;margin:8px 0}#journalTitle{width:100%;margin
   .main{padding:12px}.topbar{display:grid}.world-status{grid-template-columns:1fr 1fr}.hero{display:block}.hero-stat{border-left:0;border-top:1px solid #1b4e67;padding:14px 0 0;margin-top:14px}
   .location-grid,.data-grid{grid-template-columns:1fr}.objective{grid-template-columns:auto 1fr}.objective-meta{grid-column:2;text-align:left}
 }
-/* Static seed map */
+/* Real Seed Map launcher */
 .map-subtitle{margin:7px 0 0;color:var(--muted);font-size:13px}
 .map-actions{display:flex;gap:10px;align-items:center}
-.map-card-static{padding:14px;overflow:hidden}
+.map-card-live{padding:14px;overflow:hidden}
 .map-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 10px 13px;border-bottom:1px solid var(--line);margin-bottom:12px}
 .map-toolbar-title{display:flex;align-items:center;gap:9px;font-size:12px;letter-spacing:.08em}
 .map-toolbar-meta{font-size:11px;color:var(--muted)}
 .live-dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 14px rgba(23,227,107,.7)}
-.seed-map-wrap{border-radius:16px;overflow:hidden;border:1px solid var(--line2);background:#071321}
-.seed-map-image{display:block;width:100%;height:auto;background:#071321}
-.map-credit{display:flex;justify-content:space-between;gap:14px;padding:11px 4px 4px;color:#7895a3;font-size:11px}
-.map-credit strong{color:#9dd7e6}
-@media (max-width:720px){
- .map-toolbar{align-items:flex-start;flex-direction:column}
- .map-toolbar-meta{display:none}
- .map-credit{flex-direction:column;gap:4px}
- .section-title{align-items:flex-start;flex-direction:column}
- .map-actions{width:100%}
- .map-actions .link-btn{width:100%}
-}
+.map-launcher{position:relative;min-height:560px;border-radius:16px;overflow:hidden;border:1px solid var(--line2);background:radial-gradient(circle at 50% 42%,rgba(22,224,255,.12),transparent 33%),linear-gradient(135deg,#071d2f,#061321 68%);isolation:isolate}
+.map-launcher-grid{position:absolute;inset:0;opacity:.55;background-image:linear-gradient(rgba(121,185,208,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(121,185,208,.09) 1px,transparent 1px);background-size:52px 52px;mask-image:linear-gradient(to bottom,transparent,black 15%,black 85%,transparent)}
+.map-launcher:before,.map-launcher:after{content:"";position:absolute;border:1px solid rgba(22,224,255,.25);border-radius:999px;filter:drop-shadow(0 0 22px rgba(22,224,255,.1));z-index:-1}.map-launcher:before{width:520px;height:520px;left:50%;top:50%;transform:translate(-50%,-50%)}.map-launcher:after{width:360px;height:360px;left:50%;top:50%;transform:translate(-50%,-50%)}
+.map-launcher-content{position:relative;z-index:2;min-height:560px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:70px 28px;max-width:760px;margin:auto}
+.map-launcher-icon{display:grid;place-items:center;width:74px;height:74px;border:1px solid var(--cyan);border-radius:22px;background:rgba(6,19,33,.72);box-shadow:0 0 30px rgba(22,224,255,.18);font-size:34px;color:var(--cyan);margin-bottom:20px}
+.map-launcher h3{font-size:30px;line-height:1.12;margin:8px 0 12px}.map-launcher p{max-width:650px;color:var(--muted);line-height:1.65;margin:0 0 24px}.map-launcher small{margin-top:18px;color:#7895a3;max-width:680px;line-height:1.5}.map-launch-btn{min-width:270px;justify-content:center}
+.map-credit{display:flex;justify-content:space-between;gap:14px;padding:11px 4px 4px;color:#7895a3;font-size:11px}.map-credit strong{color:#9dd7e6}
+@media (max-width:720px){.map-toolbar{align-items:flex-start;flex-direction:column}.map-toolbar-meta{display:none}.map-launcher,.map-launcher-content{min-height:470px}.map-launcher-content{padding:48px 20px}.map-launcher:before{width:380px;height:380px}.map-launcher:after{width:250px;height:250px}.map-launcher h3{font-size:25px}.map-credit{flex-direction:column;gap:4px}.section-title{align-items:flex-start;flex-direction:column}.map-actions{width:100%}.map-actions .link-btn{width:100%;justify-content:center}}

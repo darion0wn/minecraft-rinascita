@@ -68,22 +68,30 @@
 
     <section id="map" class="view">
       <div class="section-title">
-        <div><div class="eyebrow">WORLD MAP</div><h2>Mappa del seed</h2><p class="map-subtitle">Panoramica statica del seed · Bedrock 26.44 · Seed 7568542259593820684</p></div>
+        <div><div class="eyebrow">WORLD MAP</div><h2>Mappa reale del mondo</h2><p class="map-subtitle">Seed 7568542259593820684 · Bedrock · cartografia esterna di Chunkbase</p></div>
         <div class="map-actions">
-          <a class="primary link-btn" href="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_26_4&dimension=overworld&x=0&z=0&zoom=0.5" target="_blank" rel="noopener noreferrer">Esplora su Chunkbase ↗</a>
+          <a class="primary link-btn" href="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_1_21_120&dimension=overworld&x=0&z=0&zoom=0.5" target="_blank" rel="noopener noreferrer">Apri la mappa reale ↗</a>
         </div>
       </div>
-      <div class="card map-card map-card-static">
+      <div class="card map-card map-card-live map-launch-card">
         <div class="map-toolbar">
-          <div class="map-toolbar-title"><span class="live-dot"></span><strong>SEED OVERVIEW</strong><span class="pill">STATIC MAP</span></div>
-          <div class="map-toolbar-meta">Coordinate e strutture note del tuo mondo</div>
+          <div class="map-toolbar-title"><span class="live-dot"></span><strong>SEED MAP</strong><span class="pill">CHUNKBASE</span></div>
+          <div class="map-toolbar-meta">Overworld · seed già inserito</div>
         </div>
-        <div class="seed-map-wrap">
-          <img class="seed-map-image" src="assets/map.svg" alt="Mappa strategica statica del seed 7568542259593820684 con villaggi, Trial Chambers e portali noti">
+        <div class="map-launcher">
+          <div class="map-launcher-grid"></div>
+          <div class="map-launcher-content">
+            <span class="map-launcher-icon">◈</span>
+            <div class="eyebrow">CARTOGRAFIA REALE</div>
+            <h3>Apri direttamente la mappa del tuo seed</h3>
+            <p>La Seed Map di Chunkbase non consente l'incorporamento affidabile dentro GitHub Pages. Per evitare mappe finte o schermate vuote, la dashboard apre la cartografia reale in una nuova scheda con il tuo seed già configurato.</p>
+            <a class="primary link-btn map-launch-btn" href="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_1_21_120&dimension=overworld&x=0&z=0&zoom=0.5" target="_blank" rel="noopener noreferrer">Esplora il seed su Chunkbase ↗</a>
+            <small>Seed: 7568542259593820684 · Overworld · apri la pagina e verifica/seleziona la versione Bedrock più recente disponibile.</small>
+          </div>
         </div>
         <div class="map-credit">
-          <span>Panoramica costruita attorno al seed reale e alle strutture verificate.</span>
-          <span>Per l'esplorazione completa usa Chunkbase dal pulsante qui sopra.</span>
+          <span>Cartografia e calcolo delle strutture: <strong>Chunkbase</strong></span>
+          <span>Le coordinate sotto restano appunti della tua spedizione, non una copia della mappa.</span>
         </div>
         <div id="mapLocations" class="location-grid"></div>
       </div>
