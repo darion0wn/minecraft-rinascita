@@ -68,30 +68,44 @@
 
     <section id="map" class="view">
       <div class="section-title">
-        <div><div class="eyebrow">WORLD MAP</div><h2>Mappa reale del mondo</h2><p class="map-subtitle">Seed 7568542259593820684 · Bedrock · cartografia esterna di Chunkbase</p></div>
+        <div><div class="eyebrow">WORLD MAP</div><h2>Mappa del mondo</h2><p class="map-subtitle">Seed map stilizzata · Bedrock 26.44 · Seed 7568542259593820684</p></div>
         <div class="map-actions">
-          <a class="primary link-btn" href="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_1_21_120&dimension=overworld&x=0&z=0&zoom=0.5" target="_blank" rel="noopener noreferrer">Apri la mappa reale ↗</a>
+          <a class="primary link-btn" href="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&amp;platform=bedrock_26_4&amp;dimension=overworld&amp;x=344&amp;z=-312&amp;zoom=0.5" target="_blank" rel="noopener noreferrer">Apri su Chunkbase ↗</a>
         </div>
       </div>
-      <div class="card map-card map-card-live map-launch-card">
+      <div class="card map-card map-card-live">
         <div class="map-toolbar">
-          <div class="map-toolbar-title"><span class="live-dot"></span><strong>SEED MAP</strong><span class="pill">CHUNKBASE</span></div>
-          <div class="map-toolbar-meta">Overworld · seed già inserito</div>
+          <div class="map-toolbar-title"><span class="live-dot"></span><strong>RINASCITA SEED MAP</strong><span class="pill">CHUNKBASE STYLE</span></div>
+          <div class="map-toolbar-meta">Trascina · rotellina per zoom · clicca i POI</div>
         </div>
-        <div class="map-launcher">
-          <div class="map-launcher-grid"></div>
-          <div class="map-launcher-content">
-            <span class="map-launcher-icon">◈</span>
-            <div class="eyebrow">CARTOGRAFIA REALE</div>
-            <h3>Apri direttamente la mappa del tuo seed</h3>
-            <p>La Seed Map di Chunkbase non consente l'incorporamento affidabile dentro GitHub Pages. Per evitare mappe finte o schermate vuote, la dashboard apre la cartografia reale in una nuova scheda con il tuo seed già configurato.</p>
-            <a class="primary link-btn map-launch-btn" href="https://www.chunkbase.com/apps/seed-map#seed=7568542259593820684&platform=bedrock_1_21_120&dimension=overworld&x=0&z=0&zoom=0.5" target="_blank" rel="noopener noreferrer">Esplora il seed su Chunkbase ↗</a>
-            <small>Seed: 7568542259593820684 · Overworld · apri la pagina e verifica/seleziona la versione Bedrock più recente disponibile.</small>
+
+        <div class="seed-map-shell" id="seedMapShell">
+          <div class="seed-map-tools">
+            <button class="map-tool" id="mapZoomIn" type="button" aria-label="Zoom avanti">+</button>
+            <button class="map-tool" id="mapZoomOut" type="button" aria-label="Zoom indietro">−</button>
+            <button class="map-tool map-tool-wide" id="mapReset" type="button">Reset</button>
           </div>
+          <div class="seed-map-legend">
+            <div class="legend-title">BIOMI</div>
+            <label><span class="legend-swatch ocean"></span>Oceano</label>
+            <label><span class="legend-swatch plains"></span>Pianura</label>
+            <label><span class="legend-swatch forest"></span>Foresta</label>
+            <label><span class="legend-swatch cherry"></span>Ciliegio</label>
+            <label><span class="legend-swatch snowy"></span>Neve</label>
+            <label><span class="legend-swatch desert"></span>Deserto / arido</label>
+            <div class="legend-title legend-title-spaced">POI</div>
+            <label><span class="legend-dot village"></span>Villaggio</label>
+            <label><span class="legend-dot trial"></span>Trial Chamber</label>
+            <label><span class="legend-dot portal"></span>Portale in rovina</label>
+            <label><span class="legend-dot capital"></span>Capitale</label>
+          </div>
+          <svg id="seedMap" class="seed-map" viewBox="0 0 1600 900" role="img" aria-label="Mappa stilizzata del seed di Rinascita"></svg>
+          <div class="seed-map-coords" id="mapCoords">X 344 · Z -312</div>
         </div>
+
         <div class="map-credit">
-          <span>Cartografia e calcolo delle strutture: <strong>Chunkbase</strong></span>
-          <span>Le coordinate sotto restano appunti della tua spedizione, non una copia della mappa.</span>
+          <span><strong>Stile cartografico ispirato alle seed map Minecraft</strong> · POI e coordinate riportano i dati noti della run.</span>
+          <span>Per la cartografia completa e la generazione delle strutture: <a href="https://www.chunkbase.com/apps/seed-map" target="_blank" rel="noopener noreferrer">Chunkbase ↗</a></span>
         </div>
         <div id="mapLocations" class="location-grid"></div>
       </div>
@@ -169,5 +183,6 @@
   </main>
 </div>
 <script src="app.js"></script>
+<script src="assets/seed-map.js"></script>
 </body>
 </html>
