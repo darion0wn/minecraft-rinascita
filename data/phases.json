@@ -1,44 +1,9 @@
 [
-  {
-    "id": 1,
-    "name": "Il Sopravvissuto",
-    "range": "Giorni 1–5",
-    "tone": "sopravvivere"
-  },
-  {
-    "id": 2,
-    "name": "Il Primo Insediamento",
-    "range": "Giorni 5–15",
-    "tone": "radicare"
-  },
-  {
-    "id": 3,
-    "name": "La Capitale",
-    "range": "Giorni 15–50",
-    "tone": "costruire"
-  },
-  {
-    "id": 4,
-    "name": "La Rivoluzione Industriale",
-    "range": "Giorni 50–100+",
-    "tone": "automatizzare"
-  },
-  {
-    "id": 5,
-    "name": "Il Regno",
-    "range": "midgame",
-    "tone": "espandere"
-  },
-  {
-    "id": 6,
-    "name": "L'End",
-    "range": "late game",
-    "tone": "concludere l'arco"
-  },
-  {
-    "id": 7,
-    "name": "La Rinascita",
-    "range": "300 giorni",
-    "tone": "ricordare"
-  }
+  {"id":1,"name":"Il Mondo Sconosciuto","range":"Giorni 1–5","tone":"esplorare"},
+  {"id":2,"name":"La Scelta della Capitale","range":"Giorni 5–20","tone":"cercare"},
+  {"id":3,"name":"La Prima Civiltà","range":"Giorni 20–50","tone":"radicare"},
+  {"id":4,"name":"Il Regno si Espande","range":"Giorni 50–100","tone":"costruire"},
+  {"id":5,"name":"Il Mondo Nasconde Qualcosa","range":"Midgame","tone":"scoprire"},
+  {"id":6,"name":"L'Altro Mondo","range":"Mid/Late game","tone":"attraversare"},
+  {"id":7,"name":"L'Orizzonte Finale","range":"Late game → 300 giorni","tone":"ricordare"}
 ]

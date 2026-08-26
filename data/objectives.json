@@ -1,206 +1,114 @@
 [
-  {
-    "id": "o01",
-    "phase": 1,
-    "title": "Sopravvivere 5 giorni",
-    "desc": "Supera i primi cinque giorni senza saltare la progressione.",
-    "tags": [
-      "survival"
-    ],
-    "points": 5
-  },
-  {
-    "id": "o02",
-    "phase": 1,
-    "title": "Trovare il luogo della capitale",
-    "desc": "Raggiungi e riconosci il Villaggio dei Ciliegi come futuro cuore del regno.",
-    "tags": [
-      "capital"
-    ],
-    "points": 5
-  },
-  {
-    "id": "o03",
-    "phase": 1,
-    "title": "Costruire la prima casa",
-    "desc": "Abbandona il riparo provvisorio e costruisci una vera casa.",
-    "tags": [
-      "building"
-    ],
-    "points": 5
-  },
-  {
-    "id": "o04",
-    "phase": 2,
-    "title": "Collegare il primo villaggio",
-    "desc": "Crea un collegamento sicuro e percorribile.",
-    "tags": [
-      "infrastructure"
-    ],
-    "points": 5
-  },
-  {
-    "id": "o05",
-    "phase": 2,
-    "title": "Costruire la prima strada",
-    "desc": "Segna il primo tratto della futura rete stradale.",
-    "tags": [
-      "infrastructure"
-    ],
-    "points": 5
-  },
-  {
-    "id": "o06",
-    "phase": 2,
-    "title": "Esplorare una struttura sconosciuta",
-    "desc": "Completa la prima vera spedizione.",
-    "tags": [
-      "exploration"
-    ],
-    "points": 10
-  },
-  {
-    "id": "o07",
-    "phase": 2,
-    "title": "Costruire la torre di guardia",
-    "desc": "Dai all'insediamento il primo punto panoramico difensivo.",
-    "tags": [
-      "building"
-    ],
-    "points": 5
-  },
-  {
-    "id": "o08",
-    "phase": 3,
-    "title": "Creare il centro storico",
-    "desc": "Piazza, municipio, strade e identità della capitale.",
-    "tags": [
-      "city"
-    ],
-    "points": 10
-  },
-  {
-    "id": "o09",
-    "phase": 3,
-    "title": "Creare il quartiere industriale",
-    "desc": "Prepara lo spazio per la rivoluzione tecnologica.",
-    "tags": [
-      "industry"
-    ],
-    "points": 10
-  },
-  {
-    "id": "o10",
-    "phase": 3,
-    "title": "Costruire il porto",
-    "desc": "Crea il primo hub logistico della capitale.",
-    "tags": [
-      "city",
-      "infrastructure"
-    ],
-    "points": 10
-  },
-  {
-    "id": "o11",
-    "phase": 3,
-    "title": "Esplorare almeno 2.000 blocchi",
-    "desc": "Allontanati abbastanza da avere davvero un mondo da scoprire.",
-    "tags": [
-      "exploration"
-    ],
-    "points": 10
-  },
-  {
-    "id": "o12",
-    "phase": 4,
-    "title": "Creare una rete ferroviaria",
-    "desc": "Collega almeno due punti importanti.",
-    "tags": [
-      "infrastructure"
-    ],
-    "points": 15
-  },
-  {
-    "id": "o13",
-    "phase": 4,
-    "title": "Costruire la Torre della Rinascita",
-    "desc": "Il monumento che diventerà il simbolo del mondo.",
-    "tags": [
-      "monument"
-    ],
-    "points": 20
-  },
-  {
-    "id": "o14",
-    "phase": 4,
-    "title": "Scoprire il segreto sotto la capitale",
-    "desc": "Esplora il sottosuolo e crea la stanza 'La Frattura'.",
-    "tags": [
-      "lore",
-      "exploration"
-    ],
-    "points": 20
-  },
-  {
-    "id": "o15",
-    "phase": 5,
-    "title": "Costruire l'avamposto del Nether",
-    "desc": "Dai al Nether una funzione stabile nel regno.",
-    "tags": [
-      "nether"
-    ],
-    "points": 15
-  },
-  {
-    "id": "o16",
-    "phase": 5,
-    "title": "Sconfiggere il Wither",
-    "desc": "Prima grande prova di combattimento.",
-    "tags": [
-      "combat"
-    ],
-    "points": 20
-  },
-  {
-    "id": "o17",
-    "phase": 6,
-    "title": "Entrare nell'End",
-    "desc": "Apri ufficialmente l'ultimo arco della campagna.",
-    "tags": [
-      "end"
-    ],
-    "points": 20
-  },
-  {
-    "id": "o18",
-    "phase": 6,
-    "title": "Sconfiggere l'Ender Dragon",
-    "desc": "Vinci la battaglia, ma non considerare finita la run.",
-    "tags": [
-      "end",
-      "boss"
-    ],
-    "points": 25
-  },
-  {
-    "id": "o19",
-    "phase": 6,
-    "title": "Costruire il Monumento della Rinascita",
-    "desc": "Conserva le memorie fondamentali della run.",
-    "tags": [
-      "monument",
-      "lore"
-    ],
-    "points": 25
-  },
-  {
-    "id": "o20",
-    "phase": 7,
-    "title": "Arrivare a 300 giorni",
-    "desc": "Guarda il mondo che hai costruito e non riconoscere più lo spawn.",
-    "tags": [
-      "endgame"
-    ],
-    "points": 30
-  }
+  {"id":"o001","phase":1,"title":"Sopravvivere 5 giorni","desc":"Supera i primi cinque giorni senza avere fretta di costruire il mondo perfetto.","tags":["survival"],"points":5},
+  {"id":"o002","phase":1,"title":"Trovare un posto in cui fermarti almeno una notte","desc":"Non deve essere casa: basta che, per una notte, ti faccia sentire al sicuro.","tags":["survival"],"points":3},
+  {"id":"o003","phase":1,"title":"Vedere un tramonto da un punto panoramico","desc":"Fermati apposta. Per una volta Minecraft non deve essere una to-do list.","tags":["exploration"],"points":2},
+  {"id":"o004","phase":1,"title":"Dormire in un villaggio sconosciuto","desc":"Passa la notte in un posto che non avevi mai visto prima.","tags":["exploration"],"points":3},
+  {"id":"o005","phase":1,"title":"Trovare il primo villaggio interessante","desc":"Non il primo che incontri: uno che ti faccia venire voglia di ricordartelo.","tags":["exploration"],"points":5},
+  {"id":"o006","phase":1,"title":"Esplorare almeno 1.000 blocchi dal punto di partenza","desc":"Allontanati abbastanza da smettere di riconoscere il paesaggio.","tags":["exploration"],"points":5},
+  {"id":"o007","phase":1,"title":"Raggiungere almeno 2.000 blocchi dal punto di partenza","desc":"Il mondo è più grande del primo bioma che ti è capitato davanti.","tags":["exploration"],"points":8},
+  {"id":"o008","phase":1,"title":"Trovare una struttura che non stavi cercando","desc":"La scoperta deve essere un incidente felice.","tags":["exploration"],"points":5},
+  {"id":"o009","phase":1,"title":"Esplorare una grotta abbastanza grande da perderti per un momento","desc":"Solo un momento. Non trasformiamo la run in un rapporto di scomparsa.","tags":["exploration"],"points":4},
+  {"id":"o010","phase":1,"title":"Tornare da una spedizione con l'inventario completamente pieno","desc":"Se devi decidere cosa buttare, hai esplorato bene.","tags":["survival"],"points":3},
+  {"id":"o011","phase":1,"title":"Tornare con un oggetto raro o insolito","desc":"Qualcosa che valga la pena conservare anche se non serve a niente.","tags":["collection"],"points":4},
+  {"id":"o012","phase":1,"title":"Segnare un luogo che potrebbe diventare importante","desc":"Non devi sapere ancora cosa costruirci.","tags":["exploration"],"points":3},
+  {"id":"o013","phase":1,"title":"Trovare un luogo che ti faccia pensare: qui costruirei qualcosa","desc":"Segui l'istinto, non la tabella Excel mentale.","tags":["capital"],"points":5},
+  {"id":"o014","phase":1,"title":"Dare un nome al primo luogo importante scoperto","desc":"Un posto con un nome inizia già ad avere una storia.","tags":["lore"],"points":2},
+  {"id":"o015","phase":1,"title":"Costruire il primo rifugio temporaneo","desc":"Brutto è accettabile. Brutto con dignità, meglio.","tags":["building"],"points":3},
+  {"id":"o016","phase":1,"title":"Partire per una spedizione senza sapere dove finirai","desc":"Esplora senza una coordinata finale.","tags":["exploration"],"points":4},
+  {"id":"o017","phase":1,"title":"Tornare usando un percorso completamente diverso","desc":"Il ritorno è parte della spedizione.","tags":["exploration"],"points":3},
+  {"id":"o018","phase":1,"title":"Costruire una piccola torre solo per guardare il mondo","desc":"Nessuna utilità richiesta. La vista basta.","tags":["building"],"points":3},
+
+  {"id":"o019","phase":2,"title":"Esplorare almeno 3 possibili luoghi per la capitale","desc":"Confronta luoghi diversi prima di scegliere dove inizierà davvero la storia.","tags":["capital","exploration"],"points":8},
+  {"id":"o020","phase":2,"title":"Scartare ufficialmente un luogo promettente","desc":"Il Villaggio dei Ciliegi può essere una tappa, non per forza il destino.","tags":["capital"],"points":3},
+  {"id":"o021","phase":2,"title":"Trovare un luogo con una vista memorabile","desc":"Un posto che continueresti a ricordare anche a gioco spento.","tags":["capital"],"points":5},
+  {"id":"o022","phase":2,"title":"Trovare un luogo vicino a una risorsa utile","desc":"Bellezza e strategia possono convivere.","tags":["capital"],"points":4},
+  {"id":"o023","phase":2,"title":"Trovare un luogo con spazio per crescere","desc":"Non costruire una capitale che dopo tre case è già finita.","tags":["capital"],"points":5},
+  {"id":"o024","phase":2,"title":"Trovare il luogo della capitale","desc":"La scelta definitiva: non perfetta, ma abbastanza giusta da volerti tornare lì.","tags":["capital"],"points":10},
+  {"id":"o025","phase":2,"title":"Stabilire il punto centrale della futura capitale","desc":"Scegli il punto da cui tutto comincerà a crescere.","tags":["capital"],"points":5},
+  {"id":"o026","phase":2,"title":"Piazzare il primo blocco della capitale","desc":"Un gesto piccolo, ma irreversibile.","tags":["capital","building"],"points":5},
+  {"id":"o027","phase":2,"title":"Dare un nome alla capitale","desc":"Ora esiste davvero anche fuori dalla tua testa.","tags":["capital","lore"],"points":3},
+  {"id":"o028","phase":2,"title":"Costruire il primo punto di riferimento della città","desc":"Una torre, una fontana, un albero, un arco: qualcosa che dica “sono qui”.","tags":["building","city"],"points":5},
+  {"id":"o029","phase":2,"title":"Creare una piccola piazza","desc":"Anche una capitale ha bisogno di un punto in cui non si produce nulla.","tags":["city"],"points":5},
+  {"id":"o030","phase":2,"title":"Accendere la prima lanterna della futura città","desc":"Segna il primo punto che non vuoi più vedere al buio.","tags":["city"],"points":2},
+  {"id":"o031","phase":2,"title":"Costruire un cartello con il nome del luogo","desc":"Semplice. Ufficiale. Ridicolmente soddisfacente.","tags":["lore"],"points":2},
+  {"id":"o032","phase":2,"title":"Costruire la prima casa","desc":"Non un riparo: una casa in cui ti va di tornare.","tags":["building"],"points":8},
+  {"id":"o033","phase":2,"title":"Costruire una casa leggermente troppo grande per essere la prima","desc":"La megalomania è una risorsa rinnovabile.","tags":["building"],"points":3},
+  {"id":"o034","phase":2,"title":"Decorare una stanza invece di limitarti a renderla funzionale","desc":"Il comfort è ufficialmente parte della progressione.","tags":["building","furniture"],"points":3},
+
+  {"id":"o035","phase":3,"title":"Collegare il primo villaggio","desc":"Crea un collegamento sicuro e riconoscibile con il primo insediamento importante.","tags":["infrastructure"],"points":8},
+  {"id":"o036","phase":3,"title":"Costruire la prima strada","desc":"Segna il primo tratto della futura rete del regno.","tags":["infrastructure"],"points":5},
+  {"id":"o037","phase":3,"title":"Costruire un ponte","desc":"Anche se avresti potuto semplicemente attraversare l'acqua.","tags":["infrastructure"],"points":4},
+  {"id":"o038","phase":3,"title":"Illuminare un percorso di notte","desc":"Una strada importante deve poter essere percorsa anche dopo il tramonto.","tags":["infrastructure"],"points":4},
+  {"id":"o039","phase":3,"title":"Collegare due luoghi importanti","desc":"Quando smetti di costruire posti e inizi a costruire connessioni.","tags":["infrastructure"],"points":6},
+  {"id":"o040","phase":3,"title":"Costruire una piccola locanda o punto di sosta","desc":"Una fermata per chi non sei tu. Questo è già worldbuilding.","tags":["building","city"],"points":5},
+  {"id":"o041","phase":3,"title":"Costruire il primo magazzino","desc":"È il momento in cui smetti di avere casse sparse come un procione.","tags":["building","storage"],"points":5},
+  {"id":"o042","phase":3,"title":"Organizzare almeno una parte del magazzino","desc":"Non tutto. Non fingiamo di essere persone che finiscono davvero i sistemi di storage.","tags":["storage"],"points":3},
+  {"id":"o043","phase":3,"title":"Creare un luogo dedicato alle mappe","desc":"Una sala cartografica, una parete o un archivio del mondo.","tags":["building","map"],"points":4},
+  {"id":"o044","phase":3,"title":"Costruire la torre di guardia","desc":"Dai all'insediamento un punto panoramico difensivo.","tags":["building"],"points":7},
+  {"id":"o045","phase":3,"title":"Creare il primo quartiere","desc":"Le case iniziano a diventare una città.","tags":["city"],"points":6},
+  {"id":"o046","phase":3,"title":"Creare il centro storico","desc":"Piazza, strade, edifici e identità della capitale.","tags":["city"],"points":10},
+  {"id":"o047","phase":3,"title":"Costruire un edificio pubblico","desc":"Qualcosa che esista per il mondo, non solo per il tuo inventario.","tags":["city","building"],"points":6},
+  {"id":"o048","phase":3,"title":"Costruire un edificio inutile ma bellissimo","desc":"Finalmente un progetto senza KPI.","tags":["building"],"points":3},
+  {"id":"o049","phase":3,"title":"Nascondere un dettaglio che solo tu sai trovare","desc":"Una piccola firma del costruttore.","tags":["lore"],"points":2},
+  {"id":"o050","phase":3,"title":"Creare un segreto all'interno della capitale","desc":"Non spiegarlo a nessuno. Nemmeno al te del futuro.","tags":["lore","building"],"points":4},
+
+  {"id":"o051","phase":4,"title":"Creare il quartiere industriale","desc":"Prepara il luogo in cui il regno inizierà a produrre davvero.","tags":["industry"],"points":10},
+  {"id":"o052","phase":4,"title":"Costruire la prima fabbrica","desc":"Scegli una funzione e dalle una forma riconoscibile.","tags":["industry","building"],"points":8},
+  {"id":"o053","phase":4,"title":"Creare una zona agricola","desc":"Organizza la produzione di cibo come parte del mondo.","tags":["industry","farming"],"points":6},
+  {"id":"o054","phase":4,"title":"Costruire un mulino o una struttura agricola importante","desc":"Funzione prima, estetica subito dopo.","tags":["building","farming"],"points":5},
+  {"id":"o055","phase":4,"title":"Creare una zona commerciale","desc":"Dai alla città un posto che sembri davvero frequentato.","tags":["city"],"points":6},
+  {"id":"o056","phase":4,"title":"Costruire il primo porto","desc":"Crea il primo hub logistico sul mare o su un grande corso d'acqua.","tags":["city","infrastructure"],"points":8},
+  {"id":"o057","phase":4,"title":"Costruire il primo molo","desc":"Piccolo obiettivo, grande soddisfazione da screenshot.","tags":["building"],"points":3},
+  {"id":"o058","phase":4,"title":"Costruire una strada che attraversi un bioma","desc":"Il mondo deve iniziare a sembrare collegato.","tags":["infrastructure"],"points":5},
+  {"id":"o059","phase":4,"title":"Collegare due biomi diversi con una strada","desc":"Fai sentire che il regno sta conquistando distanze.","tags":["infrastructure"],"points":7},
+  {"id":"o060","phase":4,"title":"Creare una piccola stazione","desc":"Non serve una metropolitana. Per ora.","tags":["infrastructure","rail"],"points":5},
+  {"id":"o061","phase":4,"title":"Costruire la prima ferrovia utile","desc":"Deve portarti davvero da qualche parte.","tags":["infrastructure","rail"],"points":7},
+  {"id":"o062","phase":4,"title":"Creare una rete ferroviaria","desc":"Collega almeno due punti importanti del regno.","tags":["infrastructure","rail"],"points":12},
+  {"id":"o063","phase":4,"title":"Costruire un avamposto lontano dalla capitale","desc":"Un piccolo pezzo di civiltà in mezzo al nulla.","tags":["exploration","building"],"points":7},
+  {"id":"o064","phase":4,"title":"Costruire qualcosa sopra una montagna","desc":"Perché il panorama vale il viaggio.","tags":["building"],"points":4},
+  {"id":"o065","phase":4,"title":"Costruire qualcosa vicino all'acqua","desc":"Un faro, una casa, un porto o qualcosa che ancora non sai nominare.","tags":["building"],"points":4},
+  {"id":"o066","phase":4,"title":"Creare un luogo che sembri abbandonato da anni","desc":"Il mondo deve avere una storia anche dove non c'eri.","tags":["lore","building"],"points":5},
+
+  {"id":"o067","phase":5,"title":"Esplorare una struttura sconosciuta","desc":"Completa una spedizione senza sapere esattamente cosa troverai.","tags":["exploration"],"points":8},
+  {"id":"o068","phase":5,"title":"Entrare in una struttura senza sapere cosa contiene","desc":"Vai avanti comunque.","tags":["exploration"],"points":4},
+  {"id":"o069","phase":5,"title":"Trovare un luogo che sembra avere una storia","desc":"Rovine, paesaggi o dettagli: se ti fa immaginare qualcosa, conta.","tags":["lore","exploration"],"points":5},
+  {"id":"o070","phase":5,"title":"Trovare una rovina","desc":"E chiederti chi c'era prima di te.","tags":["exploration"],"points":5},
+  {"id":"o071","phase":5,"title":"Trovare qualcosa sotto terra che non ti aspettavi","desc":"Il sottosuolo deve meritare la discesa.","tags":["exploration"],"points":5},
+  {"id":"o072","phase":5,"title":"Seguire una strada o un fiume fino a dove ti porta","desc":"Nessuna meta prestabilita.","tags":["exploration"],"points":4},
+  {"id":"o073","phase":5,"title":"Trovare un luogo abbastanza bello da meritare un avamposto","desc":"Non costruirlo subito: prima assicurati di volerci tornare.","tags":["exploration"],"points":5},
+  {"id":"o074","phase":5,"title":"Esplorare una Trial Chamber","desc":"Prima grande spedizione strutturata del mondo.","tags":["exploration","combat"],"points":10},
+  {"id":"o075","phase":5,"title":"Tornare da una spedizione con un trofeo","desc":"Mettilo in mostra. Non lasciarlo in una cassa.","tags":["collection"],"points":5},
+  {"id":"o076","phase":5,"title":"Scoprire il primo grande mistero del mondo","desc":"Un luogo o una scoperta che merita un capitolo tutto suo.","tags":["lore"],"points":10},
+  {"id":"o077","phase":5,"title":"Trovare il segreto sotto la capitale","desc":"Quando la città esisterà, guarda cosa c'era sotto di lei.","tags":["lore","exploration"],"points":15},
+  {"id":"o078","phase":5,"title":"Creare un accesso a un luogo segreto","desc":"Non deve essere comodo. Deve essere memorabile.","tags":["lore","building"],"points":6},
+  {"id":"o079","phase":5,"title":"Lasciare un messaggio per il te del futuro","desc":"Un libro, un cartello o una stanza. Qualcosa da ritrovare dopo 100 giorni.","tags":["lore"],"points":4},
+
+  {"id":"o080","phase":6,"title":"Costruire l'avamposto del Nether","desc":"Dai al Nether una funzione stabile nel regno.","tags":["nether"],"points":10},
+  {"id":"o081","phase":6,"title":"Creare un portale che sembri parte della storia del mondo","desc":"Niente rettangolo buttato dietro casa. Stavolta no.","tags":["nether","building"],"points":6},
+  {"id":"o082","phase":6,"title":"Esplorare abbastanza il Nether da trovare una nuova destinazione","desc":"Il Nether deve smettere di essere solo una scorciatoia.","tags":["nether","exploration"],"points":8},
+  {"id":"o083","phase":6,"title":"Collegare il Nether alla capitale","desc":"Trasforma due mondi in un'unica infrastruttura.","tags":["nether","infrastructure"],"points":10},
+  {"id":"o084","phase":6,"title":"Costruire un piccolo rifugio nel Nether","desc":"Un posto sicuro in un posto che odia la tua esistenza.","tags":["nether","building"],"points":5},
+  {"id":"o085","phase":6,"title":"Sconfiggere il Wither","desc":"Prima grande prova di combattimento del regno.","tags":["combat","boss"],"points":20},
+  {"id":"o086","phase":6,"title":"Costruire un monumento dopo una grande battaglia","desc":"Ogni grande scontro merita una memoria fisica.","tags":["monument","lore"],"points":8},
+
+  {"id":"o087","phase":7,"title":"Trovare il luogo che conduce alla fine","desc":"Non chiamarlo ancora finale.","tags":["end"],"points":10},
+  {"id":"o088","phase":7,"title":"Preparare la spedizione più importante della run","desc":"Organizza l'equipaggiamento come se questa fosse davvero una missione.","tags":["end"],"points":8},
+  {"id":"o089","phase":7,"title":"Entrare nell'End","desc":"Apri ufficialmente l'ultimo grande arco della campagna.","tags":["end"],"points":20},
+  {"id":"o090","phase":7,"title":"Costruire un piccolo avamposto prima dello scontro","desc":"Anche alla fine del mondo qualcuno deve pensare alla logistica.","tags":["end","building"],"points":5},
+  {"id":"o091","phase":7,"title":"Sconfiggere l'Ender Dragon","desc":"Vinci la battaglia, ma non considerare finita la run.","tags":["end","boss"],"points":25},
+  {"id":"o092","phase":7,"title":"Tornare nel mondo normale","desc":"Il mondo non è finito: adesso devi guardarlo con occhi diversi.","tags":["end"],"points":5},
+  {"id":"o093","phase":7,"title":"Guardare la mappa e renderti conto di quanto è cambiato tutto","desc":"Fermati e confronta il Giorno 1 con il presente.","tags":["lore","map"],"points":6},
+  {"id":"o094","phase":7,"title":"Costruire il Monumento della Rinascita","desc":"Conserva le memorie fondamentali della run.","tags":["monument","lore"],"points":20},
+  {"id":"o095","phase":7,"title":"Costruire la Torre della Rinascita","desc":"Il simbolo del mondo, visibile da lontano.","tags":["monument"],"points":20},
+  {"id":"o096","phase":7,"title":"Visitare tutti i luoghi importanti della tua storia","desc":"Fai un ultimo viaggio attraverso i posti che hanno costruito la run.","tags":["lore","exploration"],"points":10},
+  {"id":"o097","phase":7,"title":"Costruire qualcosa dedicato al primo giorno nel mondo","desc":"Una memoria di quando non avevi ancora idea di cosa sarebbe diventato tutto questo.","tags":["monument","lore"],"points":6},
+  {"id":"o098","phase":7,"title":"Tornare al punto in cui tutto è iniziato","desc":"Stesso luogo, giocatore completamente diverso.","tags":["lore"],"points":5},
+  {"id":"o099","phase":7,"title":"Guardare il tramonto dal punto più importante della capitale","desc":"Una chiusura senza fretta.","tags":["lore"],"points":5},
+  {"id":"o100","phase":7,"title":"Arrivare a 50 giorni","desc":"Primo vero traguardo di resistenza.","tags":["milestone"],"points":5},
+  {"id":"o101","phase":7,"title":"Arrivare a 100 giorni","desc":"Il mondo comincia ad avere una sua storia.","tags":["milestone"],"points":8},
+  {"id":"o102","phase":7,"title":"Arrivare a 200 giorni","desc":"Ormai non è più una semplice partita iniziata per provare degli add-on.","tags":["milestone"],"points":12},
+  {"id":"o103","phase":7,"title":"Arrivare a 300 giorni","desc":"Guarda il mondo che hai costruito e non riconoscere più lo spawn.","tags":["endgame"],"points":30},
+  {"id":"o104","phase":7,"title":"Completare almeno 50 obiettivi","desc":"Metà della campagna deve diventare realtà.","tags":["milestone"],"points":10},
+  {"id":"o105","phase":7,"title":"Completare almeno 100 obiettivi","desc":"Hai trasformato una partita in un mondo.","tags":["milestone"],"points":20},
+  {"id":"o106","phase":7,"title":"Decidere che la storia non è ancora finita","desc":"Il vero obiettivo finale: trovare il prossimo motivo per continuare.","tags":["endgame"],"points":10}
 ]

@@ -5,66 +5,17 @@
   "anchor": {
     "x": 344,
     "z": -312,
-    "label": "Villaggio dei Ciliegi"
+    "label": "Villaggio dei Ciliegi — prima tappa"
   },
-  "version_note": "Seed verificato per Bedrock nelle versioni recenti; la generazione può variare se cambi versione o usi add-on che modificano la world generation.",
+  "version_note": "Seed verificato per Bedrock nelle versioni recenti; la generazione può variare se cambi versione o usi add-on che modificano la world generation. Il Villaggio dei Ciliegi è stato esplorato il Giorno 1 e non è ancora la capitale.",
   "locations": [
-    {
-      "id": "capital",
-      "type": "base",
-      "name": "Villaggio dei Ciliegi",
-      "x": 344,
-      "z": -312,
-      "status": "planned",
-      "description": "Punto di partenza della futura capitale."
-    },
-    {
-      "id": "trial1",
-      "type": "trial",
-      "name": "Trial Chamber Nord-Ovest",
-      "x": 311,
-      "z": -425,
-      "y": -28,
-      "status": "unknown",
-      "description": "Prima spedizione importante. Non renderla una semplice farm."
-    },
-    {
-      "id": "portal1",
-      "type": "portal",
-      "name": "Rovine del Portale",
-      "x": 344,
-      "z": -584,
-      "status": "unknown",
-      "description": "Punto di passaggio da esplorare."
-    },
-    {
-      "id": "trial2",
-      "type": "trial",
-      "name": "Trial Chamber Est",
-      "x": 713,
-      "z": -457,
-      "y": -14,
-      "status": "unknown",
-      "description": "Seconda struttura per l'arco dell'esplorazione."
-    },
-    {
-      "id": "portal2",
-      "type": "portal",
-      "name": "Rovine del Portale Est",
-      "x": 712,
-      "z": -488,
-      "status": "unknown",
-      "description": "Possibile collegamento a una futura rete di esplorazione."
-    },
-    {
-      "id": "village2",
-      "type": "village",
-      "name": "Villaggio delle Pianure",
-      "x": 792,
-      "z": -344,
-      "status": "unknown",
-      "description": "Possibile seconda città o avamposto commerciale."
-    }
+    {"id":"capital","type":"base","name":"Capitale della Rinascita","x":0,"z":0,"status":"unknown","description":"Ancora da trovare. Nessuna capitale verrà scelta finché il luogo giusto non farà venire voglia di tornarci."},
+    {"id":"cherry","type":"village","name":"Villaggio dei Ciliegi","x":344,"z":-312,"status":"explored","description":"Prima tappa della run, esplorata il Giorno 1. Bella, ma non abbastanza convincente da diventare la capitale."},
+    {"id":"trial1","type":"trial","name":"Trial Chamber Nord-Ovest","x":311,"z":-425,"y":-28,"status":"unknown","description":"Prima spedizione importante. Non renderla una semplice farm."},
+    {"id":"portal1","type":"portal","name":"Rovine del Portale","x":344,"z":-584,"status":"unknown","description":"Punto di passaggio da esplorare."},
+    {"id":"trial2","type":"trial","name":"Trial Chamber Est","x":713,"z":-457,"y":-14,"status":"unknown","description":"Seconda struttura per l'arco dell'esplorazione."},
+    {"id":"portal2","type":"portal","name":"Rovine del Portale Est","x":712,"z":-488,"status":"unknown","description":"Possibile collegamento a una futura rete di esplorazione."},
+    {"id":"village2","type":"village","name":"Villaggio delle Pianure","x":792,"z":-344,"status":"unknown","description":"Possibile seconda città o avamposto commerciale."}
   ],
   "mapUrl": "https://www.chunkbase.com/apps/seed-map"
 }
